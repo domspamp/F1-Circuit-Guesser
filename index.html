@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" />
+    <title>Circuit Guesser</title>
+</head>
+<body>
+    <h1 class="title">Circuit Guesser</h1>
+    <form autocomplete="off" class="form">
+        <div class="autocomplete">
+            <input id="search" type="text" name="track" class="searchbar" placeholder="Search tracks..." />
+        </div>
+        <input type="submit" value="↑" />
+    </form>
+    <h4 id="lastGuess">Previous Guess: </h4>
+    <table id="guess">
+        <tr class="names">
+            <th>Circuit Name</th>
+            <th>Distance(miles)</th>
+        </tr>
+    </table>
+
+    <script src="script.js"></script>
+</body>
+</html>
